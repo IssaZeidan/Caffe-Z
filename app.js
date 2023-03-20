@@ -10,10 +10,10 @@
 //     alert( `welcome ${name}!`);
 // }
 // console.log(name + drinkName)
-alert ("welcome to cafe z")
-let answers = [];
-let username = prompt("enter your name");
-let gender = "";
+// alert ("welcome to cafe z")
+// let answers = [];
+// let username = prompt("enter your name");
+// let gender = "";
 
 // while (gender !== "male" && gender !== "female"){
 //     gender =prompt("what is your Gender male/female ?")
@@ -31,7 +31,7 @@ let gender = "";
 alert ("welcome to cafe z")
 let name =prompt("what is your name ?");
 let answers= [];
-let gender = userGender();
+// let gender = userGender();
 function userGender(){
     let gender =prompt("what is your Gender male/female ?");
     while (gender != "male" && gender != "female"){
@@ -49,7 +49,9 @@ let drinkName =prompt("what is your drink name?");
 
 alert("Your drink is being prepared")
 
-answers.push(username , gender , drinkType , drinkName)
+answers.push(name , gender , drinkType , drinkName)
 for (let i = 0; i < answers.length; i++){
     console.log(answers[i])
 }
+}
+userGender();
