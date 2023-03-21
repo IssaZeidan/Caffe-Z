@@ -68,16 +68,19 @@ let mainDiv= document.createElement("div");
 let paragraph= document.createElement("P");
 paragraph.textContent = username;
 mainDiv.appendChild(paragraph);
+
 let unOrderList= document.createElement("ul");
 let list1= document.createElement("li");
 list1.textContent=`gender: ${userGender}`;
 let list2= document.createElement("li");
 list2.textContent=`age: ${age}`;
 let list3= document.createElement("li");
-list3.textContent=`dink: ${drinkType} ${drinkName}`;
+list3.textContent=`drink: ${drinkType} ${drinkName}`;
+
 unOrderList.appendChild(list1);
 unOrderList.appendChild(list2);
 unOrderList.appendChild(list3);
+
 mainDiv.appendChild(unOrderList);
 main.appendChild(mainDiv);
 
