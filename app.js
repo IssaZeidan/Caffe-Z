@@ -56,12 +56,21 @@
 //         console.log(answers[i])
 //     }
 // }
+
 // =======
 // //     answers.push(name , gender , drinkType , drinkName)
 // //     for (let i = 0; i < answers.length; i++){
 // //         console.log(answers[i])
 // //     }
 // // }
+
+
+//     answers.push(name , gender , drinkType , drinkName)
+//     for (let i = 0; i < answers.length; i++){
+//         console.log(answers[i])
+//     }
+// }
+
 // let username= prompt("Enter your name");
 // let userGender= prompt("What is your gender male / female?");
 // let age= prompt ("Enter your age");
@@ -90,7 +99,8 @@
 
 // mainDiv.appendChild(unOrderList);
 // main.appendChild(mainDiv);
-// >>>>>>> Stashed changes
+
+
 
 const For = document.getElementById("Form");
 For.addEventListener("submit",function(event){
@@ -137,7 +147,3 @@ For.addEventListener("submit",function(event){
     Form.appendChild(paragraph5);
 For.reset();
     })
-
-
-
-
